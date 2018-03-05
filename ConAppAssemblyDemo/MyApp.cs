@@ -5,6 +5,12 @@ namespace ConAppAssemblyDemo
 {
     class MyApp
     {
+        /// <summary>
+        /// BCIT COMP3618 Week 8 Lab 1
+        /// Krzysztof Szczurowski
+        /// Repo: https://github.com/kriss3/BCIT_COMP3618_Week8_Lab1.git
+        /// Main application entry point;
+        /// </summary>
         static void Main(string[] args)
         {
             string path = @"C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll";
