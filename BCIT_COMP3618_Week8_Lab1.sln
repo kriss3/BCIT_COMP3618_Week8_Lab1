@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppAssemblyDemo", "ConAppAssemblyDemo\ConAppAssemblyDemo.csproj", "{0FABEB8F-28DE-4FD9-9E3B-4C87379F97F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection.Presentation", "Reflection.Presentation", "{F80BFDE5-958E-42EB-A382-47DA722D35FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FABEB8F-28DE-4FD9-9E3B-4C87379F97F3} = {F80BFDE5-958E-42EB-A382-47DA722D35FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE78DA8E-6C31-4370-9D33-24787D33D59F}
